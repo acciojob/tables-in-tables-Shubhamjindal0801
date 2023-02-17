@@ -1,81 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <table class="tab">
-        <thead class="thr">
-            <tr>
-                <th>
-                    <table style="border:2px solid black;">
-                        <tr>
-                            <th style="text-align: center;">Nested Table 2</th>
-                        </tr>
-                        <tr>
-                            <th>Column 1</th>
-                            <th>Column 2</th>
-                        </tr>
-                        <tr>
-                            <th>abc</th>
-                            <th>def</th>
-                        </tr>
-                    </table>
-                </th>
-                <th>
-                    <table style="border:2px solid black;">
-                        <tr>
-                            <th style="text-align: center;">Nested Table 1</th>
-                        </tr>
-                        <tr>
-                            <th>
-                                
-                        <ul>
-                            <li>List item</li>
-                            <li>List item</li>
-                            <li>List item</li>
-                        </ul>
-                            </th>
-                        </tr>
-                    </table>
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Nested Table 3</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td style="text-align: center;"><a href="">Nested Table</a></td>
-                                <td>Demo Continues</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <thead><tr>
-                            <th>Nested Table 4</th></tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td style="background-color: black; color: white;text-align: center;">HTML</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table style="width: 100%; height: 100%">
+      <!-- Your code here -->
+		<tr class="Row1">
+			<td class=Data1>
+				<table class="tab1">
+					<tr>
+						<th>Nested Table 2</th>
+					</tr>
+					<tr>
+						<th>Column 1</th><th>Column 2</th>
+					</tr>
+					<tr>
+						<td>abc</td><td>def</td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table class="tab1">
+					<tr><th>Nested Table 1</th></tr>
+					<tr><td><ul>
+						<li>List item 1</li>
+						<li>List item 2</li>
+						<li>List item 3</li>
+					</ul></td></tr>
+				</table>
+			</td>
+		</tr>
+		<tr class="Row1">
+			<td class="Data2"><table class="tab1">
+				<tr><th>Nested Table 3</th></tr>
+				<tr><td><a href="#">Nested Table</a></td>
+				<td>Demo Continued</td></tr>
+			</table></td>
+			<td>
+				<table class="tab1">
+					<tr><th>Nested Table 4</th></tr>
+					<tr style="color:white"><th style="background-color:black" >HTML</th></tr>
+				</table>
+			</td>
+		</tr>
     </table>
-</body>
+  </body>
 </html>
